@@ -62,8 +62,7 @@
             "command": "PYTHONUNBUFFERED=1 ansible-playbook",
             "playbook_file": "../ansible/playbook.yml",
             "role_paths": [
-                     "../ansible/roles/base-ami",
-                     "../ansible/roles/app01"
+                     "../ansible/roles/base-packages"
             ],
             "extra_arguments": [ "-T", "120" ]
         }

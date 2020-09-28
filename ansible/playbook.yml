@@ -14,5 +14,5 @@
         dest: /bin/ec2-metadata
         mode: '0755'
   roles:
-    - name: base-ami
+    - name: base-packages
 

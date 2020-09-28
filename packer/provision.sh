@@ -7,8 +7,8 @@ echo
 echo "-------------------------------------------"
 echo "    Provisioning script."
 echo "-------------------------------------------"
-#uname -a
-#yum update -y
+uname -a
+yum update -y
 
 if [ "`cat /etc/system-release 2>> /dev/null | grep Amazon`" != "" ]; then
   amazon-linux-extras install epel -y
