@@ -1,5 +1,5 @@
 cd ansible && \
-ansible-galaxy install -r requirements.yml -p roles && \
+ansible-galaxy install -f -r requirements.yml -p roles && \
 cd .. && \
 cd packer && \
 ./run.sh

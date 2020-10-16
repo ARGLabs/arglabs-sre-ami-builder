@@ -1,4 +1,7 @@
 - name: base-packages
   src: git+ssh://git@github.com/ARGLabs/arglabs-sre-ansible-role-base-packages.git
   version: master
+- name: os-tunning
+  src: git+ssh://git@github.com/ARGLabs/arglabs-sre-ansible-role-os-tunning.git
+  version: main
 

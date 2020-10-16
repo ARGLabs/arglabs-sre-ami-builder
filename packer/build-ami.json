@@ -62,7 +62,8 @@
             "command": "PYTHONUNBUFFERED=1 ansible-playbook",
             "playbook_file": "../ansible/playbook.yml",
             "role_paths": [
-                     "../ansible/roles/base-packages"
+                     "../ansible/roles/base-packages",
+                     "../ansible/roles/os-tunning"
             ],
             "extra_arguments": [ "-T", "120" ]
         }
