@@ -39,7 +39,7 @@
             },
 	    "security_group_filter": {
               "filters": {
-                "tag:Name": "global-vpc-sg-allow-all"
+                "tag:Name": "global-vpc-allow-all"
               }
             }
         }
