@@ -16,4 +16,9 @@
   roles:
     - name: base-packages
     - name: os-tunning
-
+    - name: telegraf
+      telegraf_influxdb_host: "influxdb"     # Optional (default)
+      telegraf_tags:
+        appname: "default"
+        team: "default"
+        squad: "default"

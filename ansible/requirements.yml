@@ -4,4 +4,7 @@
 - name: os-tunning
   src: git+ssh://git@github.com/ARGLabs/arglabs-sre-ansible-role-os-tunning.git
   version: main
+- name: telegraf
+  src: git+ssh://git@github.com/ARGLabs/arglabs-sre-ansible-role-telegraf.git
+  version: main
 

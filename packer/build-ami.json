@@ -63,7 +63,8 @@
             "playbook_file": "../ansible/playbook.yml",
             "role_paths": [
                      "../ansible/roles/base-packages",
-                     "../ansible/roles/os-tunning"
+                     "../ansible/roles/os-tunning",
+                     "../ansible/roles/telegraf"
             ],
             "extra_arguments": [ "-T", "120" ]
         }
