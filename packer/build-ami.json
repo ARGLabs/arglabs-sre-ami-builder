@@ -23,6 +23,7 @@
               "Description": "Base AMI",
               "team": "sre",
               "created": "{{ isotime \"2006-01-02\" }}-{{timestamp}}",
+              "created_by": "packer",
               "project": "base-ami",
               "repository": "git@github.com:ARGLabs/arglabs-sre-ami-builder.git"
             },
