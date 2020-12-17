@@ -1,0 +1,9 @@
+{
+  "system":            "arm64",
+  "aws_region":        "us-east-1",
+  "aws_instance_type": "t4g.micro",
+  "aws_source_ami_filter": "amzn2-ami-hvm-*-arm64-gp2",
+  "aws_source_ami_owner":  "137112412989",
+  "aws_ami_ssh_user":  "ec2-user"
+}
+
