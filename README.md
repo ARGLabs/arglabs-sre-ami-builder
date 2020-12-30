@@ -36,6 +36,24 @@ Usage:
 ```shell
 ./run.sh 
 ```
+Expect something like this output [Youtube video](https://www.youtube.com/watch?v=ABlVvJDJkvk)
+
+### How it will be used by other projects
+Using the terraform data resource to get always the newest AMI (if you want).
+
+```
+data "aws_ami" "ami" {
+  most_recent = true
+  filter {
+    name   = "name"
+    values = ["base-ami-arm64-*"]
+  }
+  owners = ["self"]
+}
+```
+
+
+
 
 # Help
 ### How to get help
