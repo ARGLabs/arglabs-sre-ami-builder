@@ -2,7 +2,7 @@
 
 This is part of the [ARGLabs project](https://www.arglabs.com.br).
 
-See more about this on [Github repository](https://github.com/ARGLabs/arglabs-sre-ami-builder) and this [blog post]().
+See more about this on [Github repository](https://github.com/ARGLabs/arglabs-sre-ami-builder) and this [blog post](https://arglabs.com.br/2020/12/30/ami-builder/).
 
 ### Why ?
 Before we start bringing services up, we need a base Linux image to start from.
@@ -25,6 +25,8 @@ We use a dedicated build network so we can have Internet access and ensure we do
 
 When your security team reports a new vulnerability and a fix, or some new system tunning you should apply to ALL services and apps, you just need to update the ansible roles and run this process again. Then, simply re-deploy all other services and apps. 
 
+You can always use the latest AMI or you can specify it by year, month, day....
+
 # How to use it
 
 ### Dependencies
@@ -40,6 +42,7 @@ Expect something like this output [Youtube video](https://www.youtube.com/watch?
 
 ### How it will be used by other projects
 Using the terraform data resource to get always the newest AMI (if you want).
+You can always use the latest AMI or you can specify it by year, month, day....
 
 ```
 data "aws_ami" "ami" {
