@@ -1,4 +1,4 @@
-# About arglabs-sre-dns-private-zones
+# About arglabs-sre-ami-builder
 
 This is part of the [ARGLabs project](https://www.arglabs.com.br).
 
